@@ -1,6 +1,6 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    background-color: #630000;
+    background-color: #EEEBDD;
 }
 
 header{
@@ -30,14 +30,14 @@ h4,h2,h3,p,h6{
 
 .title {
     margin-top: 3rem;
-    color: white;
+    color: black;
     font-weight: 500;
     /* border-bottom: 6px ridge #50b4ff; */
 }
 
 .Interior {
     padding: 0.7rem;
-    background-color:  #EEEBDD;
+    background-color:  rgb(129, 0, 0);
     border-radius: 4px;
 }
 
@@ -48,6 +48,7 @@ h4,h2,h3,p,h6{
 .ComputerComponents {
     background-color: #1B1717;
     padding-bottom: 4rem;
+    border-radius: 3px;
 }
 
 .bluePage {
