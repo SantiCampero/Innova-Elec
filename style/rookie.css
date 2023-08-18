@@ -1,0 +1,30 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: rgb(99, 0, 0);
+}
+
+.fondoRookie {
+    background-color: rgb(238, 235, 221);
+}
+
+.rookieImg {
+    background-color: white;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 9px 2px 7px 4px rgba(0,0,0,0.75);
+    padding: 4rem;
+    width: 590px;
+} 
+
+.infoRookie {
+    background-color: rgb(27, 23, 23);
+    padding-bottom: 3rem;
+    color: white;
+}
+.list {
+    font-size: 1.5rem;
+}
+
+.comments {
+    background-color: rgb(99, 0, 0);
+}
+
