@@ -1,6 +1,6 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    background-color: #EEEBDD;
+    background-color: #630000;
 }
 
 header{
@@ -11,7 +11,7 @@ header{
     width: 50px;
 }
 
-h4,h2,h3,p,h6{
+h4,h2,h3,p,h6,h1{
     color: rgb(238, 235, 221);
 }
 
@@ -21,7 +21,7 @@ h4,h2,h3,p,h6{
 }
 
 .icons{
-    color: rgb(238, 235, 221);
+    color:rgb(238, 235, 221) ;
 }
 
 .contenedor{
@@ -30,14 +30,13 @@ h4,h2,h3,p,h6{
 
 .title {
     margin-top: 3rem;
-    color: black;
     font-weight: 500;
     /* border-bottom: 6px ridge #50b4ff; */
 }
 
 .Interior {
-    padding: 0.7rem;
-    background-color:  rgb(129, 0, 0);
+    padding: 0.5rem;
+    background-color: rgb(238, 235, 221);
     border-radius: 4px;
 }
 

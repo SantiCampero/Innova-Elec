@@ -1,0 +1,15 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgb(99,0,0);
+}
+
+form {
+    padding: 8%;
+    padding-top: 45px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 235, 221);
+}

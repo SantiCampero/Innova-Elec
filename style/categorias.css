@@ -1,0 +1,68 @@
+header{
+    background-color: rgb(27, 23, 23);
+}
+footer{
+    background-color: rgb(27, 23, 23);
+}
+.icons{
+    width: 50px;
+}
+h4,h2,h3,p,h6{
+    color: rgb(238, 235, 221);
+}
+.logo{
+    width: 300px;
+    height: 300px;
+}
+.icons{
+    color: rgb(238, 235, 221);
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: #630000;
+}
+.contenedor{
+    background-color: #630000;
+}
+.title {
+    margin-top: 3rem;
+    color: rgb(238, 235, 221);
+    font-weight: 500;
+    /* border-bottom: 6px ridge #50B4FF; */
+}
+.Interior {
+    padding: 0.7rem;
+    background-color:  rgb(238, 235, 221);
+    border-radius: 4px;
+}
+/* .fotosPrincipales {
+    margin-bottom: 1rem !important;
+    width: 100vh;
+    height: 100vh;
+} */
+.Pc {
+    box-shadow: 1px 0px 7px 01px rgba(0,0,0,0.75);
+}
+.ComputerComponents {
+    background-color: #1B1717;
+    padding-bottom: 4rem;
+}
+.bluePage {
+    color: rgb(238, 235, 221);
+}
+hr{
+    margin: 0;
+    color: rgb(238, 235, 221);
+    padding: 0;
+}
+.nav-link{
+    color:aliceblue;
+}
+.boton{
+    background-color: #630000;
+    color: rgb(238, 235, 221);
+}
+.titulo{
+ background-color: #EEEBDD;
+ color: rgb(27,23,23);
+}
