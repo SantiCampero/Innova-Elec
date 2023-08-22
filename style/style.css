@@ -2,66 +2,116 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     background-color: #630000;
 }
-
 header{
     background-color: rgb(27, 23, 23);
 }
-
+footer{
+    background-color: rgb(27, 23, 23);
+}
 .icons{
     width: 50px;
+    color:rgb(238, 235, 221) ;
 }
-
 h4,h2,h3,p,h6,h1{
     color: rgb(238, 235, 221);
 }
-
 .logo{
     width: 300px;
     height: 300px;
 }
-
-.icons{
-    color:rgb(238, 235, 221) ;
+.fondoLenovo {
+    background-color: #EEEBDD;
 }
-
+.lenovoImg {
+    background-color: white;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 9px 2px 7px 4px rgba(0,0,0,0.75);
+    padding: 3rem;
+}
+.infoLenovo {
+    background-color: rgb(27, 23, 23);
+    padding-bottom: 3rem;
+    color: white;
+}
+.list {
+    font-size: 1.2rem;
+}
+.comments {
+    background-color: rgb(99, 0, 0);
+}
 .contenedor{
     background-color: #630000;
 }
-
 .title {
     margin-top: 3rem;
     font-weight: 500;
-    /* border-bottom: 6px ridge #50b4ff; */
+    /* border-bottom: 6px ridge #50B4FF; */
 }
-
 .Interior {
     padding: 0.5rem;
     background-color: rgb(238, 235, 221);
     border-radius: 4px;
 }
-
 .Pc {
     box-shadow: 1px 0px 7px 01px rgba(0,0,0,0.75);
 }
-
 .ComputerComponents {
     background-color: #1B1717;
     padding-bottom: 4rem;
     border-radius: 3px;
 }
-
 .bluePage {
     color: white;
 }
-
 hr{
     margin: 0;
     color: rgb(238, 235, 221);
     padding: 0;
 }
-
 footer{
     background-color: rgb(27, 23, 23);
 }
+.nav-link{
+    color:aliceblue;
+}
+.boton{
+    background-color: #630000;
+    color: rgb(238, 235, 221);
+}
+.titulo{
+    background-color: #EEEBDD;
+    color: rgb(27,23,23);
+   }
+   .fondoRookie {
+    background-color: rgb(238, 235, 221);
+}
+.rookieImg {
+    background-color: white;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 9px 2px 7px 4px rgba(0,0,0,0.75);
+    padding: 4rem;
+    width: 590px;
+}
+.infoRookie {
+    background-color: rgb(27, 23, 23);
+    padding-bottom: 3rem;
+    color: white;
+}
+
+.somos{
+    background-color: #EEEBDD;
+    color: #1B1717;
+}
 
 
+.formulario{
+    padding: 8%;
+    padding-top: 45px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+}
