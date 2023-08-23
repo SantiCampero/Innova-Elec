@@ -14,7 +14,7 @@
     <header>
       <nav class="navbar navbar-expand-lg py-4">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold d-sm justify-content-center text-white" href="index.html">InnovaElec-Store</a>
+          <a class="navbar-brand fw-bold d-sm justify-content-center text-white" href="/index.html">InnovaElec-Store</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,48 +33,95 @@
                 <a class="nav-link text-white" href="./contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./nosotros.html">Conocenos</a>
+                <a class="nav-link text-white" href="./nosotros.html">nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link icons" href="./carrito.html"><i class="fa-solid fa-cart-shopping icons"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="login.html">Login</a>
+                <a class="nav-link active text-white" aria-current="page" href="./login.html">Login</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <!-- main -->
-    <main>
-      <div class="container my-5 ">
-        <div class="container-fluid row d-flex justify-content-center align-items-center">
-          <div class="col-sm-12 col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102370980829!2d-65.20977672363523!3d-26.836696090033698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1692749119372!5m2!1ses!2sar"class="w-100 img-fluid"  height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="col-sm-12 col-md-6">
-            <div role="search">
-              <div class="mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required maxlength="30" minlength="2">
-              </div>
-              <div class="mb-3">
-                <input type="email" class="form-control" id="email" placeholder="Email" required maxlength="30" minlength="2">
-              </div>
-              <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje" required maxlength="500" minlength="2"></textarea>
-              </div>
-              <button type="submit" class="btn btn-dark btn-lg" >Enviar</button>
+    <main class="main">
+      <section class="container py-5">
+        <article class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="form_title">
+              <h2>Envianos tu mensaje!</h2>
             </div>
-            <div class="text-center">
-              <a class="navbar-brand fw-bold d-sm justify-content-center text-dark" href="index.html">InnovaElec-Store</a>
-              <p class="text-dark">Visitanos en nuestra sucursal o <br> hace tu pedido y te lo enviamos sin cargo.</p>
-            </div>
+            <form class="mt-3 row">
+              <div class="py-2 col-sm-12 col-lg-6">
+                <label for="nameinput" class="form-label text-light">Nombre</label>
+                <input
+                  type="text"
+                  placeholder="Ingrese su nombre"
+                  name="name"
+                  id="nameinput"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="py-2 col-sm-12 col-lg-6">
+                <label for="nameinput" class="form-label text-light">Apellido</label>
+                <input
+                  type="text"
+                  placeholder="Ingrese su apellido"
+                  name="name"
+                  id="nameinput"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="py-2">
+                <label for="emailinput" class="form-label text-light">Email</label>
+                <input
+                  type="email"
+                  placeholder="Ingrese su email"
+                  name="email"
+                  id="emailinput"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="py-2">
+                <label for="messageinput" class="form-label text-light">Mensaje</label>
+                <textarea
+                  placeholder="Dejanos tu mensaje!"
+                  name="message"
+                  id="messageinput"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
+              <div class="col pt-3 pb-5">
+                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+              </div>
+            </form>
           </div>
-        </div>
-      </div>
+          <div class="col-md-6 col-sm-12">
+            <div>
+              <h2>Encontranos en nuestra oficina!</h2>
+              <p>
+                Si deseas asesoría turística personalizada, podés acercarte a
+                nuestra oficina en San Miguel de Tucumán de lunes a viernes de
+                10 hs a 21 hs
+              </p>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1023707800923!2d-65.20939584935752!3d-26.836696096419086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1663083244599!5m2!1ses-419!2sar"
+              class="w-100 border border-2 border-light"
+              height="450"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </article>
+      </section>
     </main>
-        <!-- footer -->
     <footer>
       <div class="container-fluid row">
         <div class="col-12 col-md-6 col-lg-4 p-4 d-flex justify-content-center align-items-center">
@@ -87,7 +134,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4 pb-4">
           <div class="d-flex justify-content-center align-items-center">
-            <img src="./assets/otrasImagenes/Logo.png" class="logo" alt="logo">
+            <img src="/assets/otrasImagenes/Logo.png" class="logo" alt="logo">
           </div>
           <h6 class="text-center">Copyright © 2023 - InnovaElec-Store</h6>
         </div>
